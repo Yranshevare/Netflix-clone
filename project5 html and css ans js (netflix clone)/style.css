@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: rgb(255, 255, 255);
+    font-family: "Roboto", sans-serif;
+}
+body{
+    background-color: black;
+}
+.back-img{
+    width: 100%;
+    height: 767px;
+    background-image: url("backgroung.jpg");
+    background-size: cover;
+    opacity: 0.2;
+    position: absolute;
+
+    z-index: -9;
+}
+.nav-logo{
+    width: 208px;
+    height: 70px;
+    background-image: url("Netflix_Logo.png");
+    background-size: cover;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.nav button:hover{
+    background-color: rgb(165, 0, 0);
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+.sign-in{
+    display: flex;
+    align-items: center;
+
+}
+.but{
+    height:30px;
+    width: 138px;
+    background-color: transparent;
+    margin-right: 10px;
+    font-weight: 700;
+    font-size: medium;
+}
+.lang{
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.sign-in button{
+    background-color: red;
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 70px;
+
+}
+.sign-in i{
+    margin-left: 5px;
+}
+
+
+.hero-section{
+    text-align: center;
+    margin-top: 150px;
+}
+.txt-one{
+    font-weight: 800;
+    font-size: 4rem;
+    font-family: "Roboto", sans-serif;
+    line-height: 65px;
+}
+.txt-two{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 1.3rem;
+    margin-top: 20px;
+}
+.txt-three{
+    font-family: "Roboto", sans-serif;
+    margin-top: 20px;
+    font-size: 1.1rem;
+}
+.email{
+    margin-top: 20px;
+}
+.email input{
+    height: 64px;
+    width: 400px;
+    background-color: transparent;
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-size: large;
+    margin-right: 10px;
+}
+.email button{
+    height: 64px;
+    width: 200px;
+    background-color: red;
+    border-radius: 5px;
+    font-size: large;
+}
+
+.email button:hover{
+    background-color: rgb(165, 0, 0);
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+ .arc{ 
+    z-index: 2; 
+    margin-top: 104px;
+    background:radial-gradient(50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black;;
+ 
+    height: 100px;
+    width: 100%;
+    /* left: -50%; */
+    border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+    position: absolute;
+} 
+
+.arcinner{
+    position: relative;
+    height: 100px;
+    width: 100%;
+    /* left: -45%; */
+    border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+    margin-top: 100px;
+    z-index: 1;
+    background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
+} 
+
+.line{
+    position: relative;
+    top: 50px;
+    overflow: hidden;
+}
+
+
+
+.trending{
+    font-size: 1.8rem;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    margin-left: 120px;
+    margin-top: 45px;
+}
+.slider{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.slider-img{
+    display: flex;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.s-img1{
+    margin: 10px;
+    transition-duration: 0.2s;
+}
+.s-img1:hover{
+    scale: 1.08;
+    cursor: pointer;
+}
+.s-img1 img{
+    border-radius: 10px;
+}
+.s-img1 p{
+    position: relative;
+    bottom: 146px;
+    right: 10px;
+    font-family: "Lilita One", sans-serif;
+    font-size: 9rem;
+    text-shadow:0px 0px 15px white;
+    color: black;
+    height: 0;
+    width: 0;
+}
+
+.slider{
+    display: flex;
+    align-items: center;
+}
+.slider button{
+    height: 120px;
+    width: 50px;
+    background-color: rgb(23, 23, 23);
+    border-radius: 10px;
+}
+
+
+.reason-to-join{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+ 
+}
+.txt{
+    margin-left: 135px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.containers{
+    display: flex;
+    margin-left: 135px;
+    margin-right: 135px;
+    justify-content: space-around;
+}
+.cont{
+    background: linear-gradient(149deg, #192247 0%, #210e17 99.08%);
+    border-radius: 15px;
+    height: 260px;
+    width: 300px;
+    margin: 10px;
+}
+.content{
+    margin:20px;
+}
+.cont-txt{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.cont-dec{
+    height: 180%;
+    color: #c0cdff;
+}
+.cont-icon{
+    font-size: 3rem;
+    margin-left: 180px;
+    position: absolute;
+    top: 1400px;
+}
+
+.qna{
+    margin-left: 135px;
+    margin-top: 50px;
+}
+.heding{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.que{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    background-color: rgb(46, 46, 46);
+    margin-top: 10px;
+    font-size: 1.5rem;
+    margin-right: 135px;
+}
+.que:hover{
+    background-color: grey;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.que p{
+    margin-left: 30px;
+}
+.que i{
+    margin-right: 30px;
+}
+
+.inner-cont{
+    background-color: rgb(46, 46, 46);
+    border-top: 1px solid black;
+    margin-right: 135px;
+    height: 0px;
+    transition-duration: 0.2s;
+}
+.inner-cont p{
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: none;
+}
+.in-para{
+    margin: 20px;
+}
+
+.fotter-email{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fotter-email input{
+    width: 600px;
+}
+.f-message{
+    font-weight: 500;
+}
+
+.contact{
+    margin-top: 80px;
+    color: rgb(136 136 136);
+}
+.links{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.l-sec{
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+
+}
+.call{
+    margin-left: 135px;
+}
+.call p,a{
+    color: rgb(136 136 136);
+}
+.f-select {
+    margin-left: 135px;
+    margin-top: 50px;
+    width: 175px;
+}
+.f-select i{
+margin-left: 5px;
+color: rgb(136 136 136);
+}
+.netflix-ind{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 135px;
+    
+}
+.netflix-ind p{
+    color: rgb(136 136 136);
+}
+.f-select select{
+    color: rgb(136 136 136);
+}

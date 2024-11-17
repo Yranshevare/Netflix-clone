@@ -1,2 +1,2 @@
 # Netflix-clone
-yadnesh  mahendra ranshevare
+yadnesh ranshevare
